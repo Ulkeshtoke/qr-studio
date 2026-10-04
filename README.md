@@ -48,7 +48,7 @@ https://qr-studio-five-coral.vercel.app/
 - CSS
 - `qrcode` library
 
-## Run Locally
+
 
 ```bash
 npm install
