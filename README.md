@@ -30,15 +30,15 @@ https://qr-studio-five-coral.vercel.app/
 
 ### QR Studio
 
-![QR Studio](docs/screenshots/main.png)
+![QR Studio](docs/main.png)
 
 ### QR Customization
 
-![QR Customization](docs/screenshots/customization.png)
+![QR Customization](docs/customization.png)
 
 ### Recent QR Codes
 
-![Recent QR Codes](docs/screenshots/history.png)
+![Recent QR Codes](docs/history.png)
 
 ## Tech Stack
 
