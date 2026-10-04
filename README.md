@@ -1,42 +1,55 @@
 # QR Studio
 
-A browser-based QR code generator built with React.
+A browser-based QR code generator and designer built with React.
+
+## Live Demo
+
+https://qr-studio-five-coral.vercel.app/
 
 ## Features
 
-- URL, Text, Email, Phone and Wi-Fi QR codes
-- Live QR preview
-- Color and error-correction controls
-- PNG and SVG export
-- Recent QR history stored locally
+- Generate QR codes for:
+  - URL
+  - Plain Text
+  - Email
+  - Phone Number
+  - Wi-Fi
+- Real-time QR preview
+- Foreground and background color customization
+- Error correction level
+- QR size and margin controls
+- Presets
+- PNG and SVG download
+- Copy QR image to clipboard when supported
+- Recent QR codes stored locally in the browser
+- Wi-Fi passwords are not stored in QR history
+- Input validation and scan-reliability warnings
+- Responsive desktop and mobile design
 
-## Screenshot
+## Screenshots
 
-Pending actual screenshots.
+### QR Studio
 
-## Run locally
+![QR Studio](docs/screenshots/main.png)
 
-```bash
-npm install
-npm run dev
-```
+### QR Customization
 
-## Build
+![QR Customization](docs/screenshots/customization.png)
 
-```bash
-npm run build
-```
+### Recent QR Codes
 
-## Tech
+![Recent QR Codes](docs/screenshots/history.png)
+
+## Tech Stack
 
 - React
 - Vite
 - JavaScript
 - CSS
-- qrcode
+- `qrcode` library
 
-## Known limitations
+## Run Locally
 
-- Dense QR codes: Long content or high error correction produces dense module grids that may be harder for legacy camera hardware to scan from a distance.
-- Inverted colors: Modern smartphone cameras scan light-on-dark codes easily, but some hardware scanners only read dark patterns on light backgrounds.
-- Image clipboard API: Direct image clipboard copying requires browser support for `navigator.clipboard.write` with `ClipboardItem`.
+```bash
+npm install
+npm run dev
